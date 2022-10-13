@@ -1,0 +1,43 @@
+[
+    {
+        "id": "e86fd4cc38c65ad2",
+        "type": "ui_template",
+        "z": "14bf79bdd00360da",
+        "group": "5f68835232f7ef74",
+        "name": "",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>\n<center>\n    <h3>Gemeinde Rebstein</H3>\n<img src=http://kunden.eye.ch/swissgen/rebstein/rebstein.gif align=\"center\" height=\"100\">\n</center>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 140,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f68835232f7ef74",
+        "type": "ui_group",
+        "name": "Grafiken",
+        "tab": "15c84cb09c997e75",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "15c84cb09c997e75",
+        "type": "ui_tab",
+        "name": "Wetter in Rebstein",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
